@@ -12,7 +12,7 @@ A caterpillar, bee or acorn touching the sprinkler costs a life. The garden is t
 
 ## Building
 
-Open `Zappel.xcodeproj` in Xcode. The `Zappel` scheme builds the iPhone app with the watch app embedded, and archives the two for the App Store. The `Zappel Watch App` scheme builds the watch app alone for a watch or the simulator and runs the tests.
+Zappel is distributed as source rather than through the App Store. Open `Zappel.xcodeproj` in Xcode and set your own team in `Config/Zappel.xcconfig`. The `Zappel` scheme builds the iPhone app with the watch app embedded. The `Zappel Watch App` scheme builds the watch app alone for a watch or the simulator and runs the tests.
 
 The game is in `Shared/`, which both apps compile. Each app's own folder, `Zappel/` and `Zappel Watch App/`, holds its menu and its icon, and the few differences inside the game, the Digital Crown among them, are marked `#if os(watchOS)` where they occur.
 
