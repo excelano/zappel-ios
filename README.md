@@ -25,7 +25,7 @@ The rules live in `Shared/Game/`, which imports nothing: `GameModel` advances th
 Zappel makes no network connection. [SECURITY.md](SECURITY.md) says what it keeps on each device, and the full statement is at [excelano.com/legal/#zappel](https://excelano.com/legal/#zappel).
 
 > [!WARNING]
-> Don't submit Zappel, or a copy of it under another name, to the App Store. Apple's
+> Do NOT submit Zappel, or a copy of it under another name, to the App Store. Apple's
 > App Review Guideline 4.3 treats copies of other apps as spam, and a 4.3
 > finding can flag the developer account that submitted it, so that every app
 > the account sends afterwards is flagged too. Build it for your own devices and keep
